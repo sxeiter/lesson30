@@ -19,9 +19,9 @@ const sendForm = () => {
             inputPhone2 = document.querySelector('#form2-phone').maxLength = '10',
             inputPhone3 = document.querySelector('#form3-phone').maxLength = '10';
 
-        /* inputPhone1.maxLength = '10';
+        inputPhone1.maxLength = '10';
         inputPhone2.maxLength = '10';
-        inputPhone3.maxLength = '10'; */
+        inputPhone3.maxLength = '10'; 
     };
     phoneMaxLengh();
 
@@ -68,7 +68,7 @@ const sendForm = () => {
             };
 
             const error = () => {
-                statusMessage.textContent = errorMessage;
+                statusMessage.textContent = errorMessage.style.color='red';
 
             };
 
